@@ -124,7 +124,7 @@ print(test_error.shape)
 test_rmse = np.sqrt(sum(np.square(test_error)) / wl_p.test_length)
 print(test_rmse)
 
-# Compute Pearson correlation coefficient
+# Compute correlation coefficient
 pearson_corr, _ = pearsonr(plot_targets, plot_preds)
 print(pearson_corr)
 
