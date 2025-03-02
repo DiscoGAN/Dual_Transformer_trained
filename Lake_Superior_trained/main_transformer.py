@@ -21,7 +21,7 @@ class config():
         self.is_mean = True  # Whether to use moving-average operation
         self.is_train = True  # Flag indicating training mode
         self.train_pro = 1  # Proportion of training data
-        self.input_size = 7  # Input feature size
+        self.input_size = 7  # Input feature size (historical)
         self.batch_size = 256  # Batch size for training
         
         # Model file paths
